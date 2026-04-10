@@ -4,99 +4,18 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Veniamin Fishman</title>
-  <meta name="description" content="Veniamin Fishman — researcher in 3D genomics, chromatin architecture, computational biology, and chromosomal rearrangements." />
+  <meta name="description" content="Veniamin Fishman — researcher developing DNA language models, computational genomics tools, and genome-scale AI methods bridging sequence, regulation, and chromatin architecture." />
   <style>
-    :root {
-      --bg: #0b1020;
-      --bg-soft: #121933;
-      --card: rgba(255,255,255,0.06);
-      --text: #eef2ff;
-      --muted: #b8c0e0;
-      --line: rgba(255,255,255,0.12);
-      --accent: #8fb4ff;
-      --accent-2: #b39cff;
-      --maxw: 1040px;
-    }
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
-    body {
-      margin: 0;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-      color: var(--text);
-      background:
-        radial-gradient(circle at top left, rgba(143,180,255,0.18), transparent 34%),
-        radial-gradient(circle at top right, rgba(179,156,255,0.18), transparent 28%),
-        linear-gradient(180deg, #0a0f1f 0%, #0c1227 100%);
-      line-height: 1.65;
-    }
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .wrap { max-width: var(--maxw); margin: 0 auto; padding: 28px 20px 80px; }
-    .nav {
-      display: flex; align-items: center; justify-content: space-between;
-      gap: 16px; padding: 10px 0 28px;
-    }
-    .nav .name { font-weight: 700; letter-spacing: 0.02em; }
-    .nav .links { display: flex; gap: 18px; flex-wrap: wrap; }
-    .hero {
-      padding: 36px 0 28px;
-      display: grid; grid-template-columns: 1.2fr 0.8fr; gap: 28px;
-      align-items: start;
-    }
-    h1 {
-      font-size: clamp(2.4rem, 5vw, 4.5rem);
-      line-height: 1.02; margin: 0 0 16px;
-      letter-spacing: -0.04em;
-    }
-    .subtitle {
-      font-size: clamp(1.05rem, 1.9vw, 1.3rem);
-      color: var(--muted); max-width: 760px;
-    }
-    .cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
-    .btn {
-      display: inline-block; padding: 12px 16px; border-radius: 999px;
-      border: 1px solid var(--line); background: rgba(255,255,255,0.04);
-      color: var(--text); font-weight: 600;
-    }
-    .btn.primary {
-      background: linear-gradient(135deg, rgba(143,180,255,0.22), rgba(179,156,255,0.22));
-      border-color: rgba(143,180,255,0.35);
-    }
-    .panel, .card {
-      background: var(--card); border: 1px solid var(--line);
-      border-radius: 22px; backdrop-filter: blur(10px);
-    }
-    .panel { padding: 22px; }
-    .hero-stats { display: grid; gap: 12px; }
-    .stat { padding: 18px; border-radius: 18px; background: rgba(255,255,255,0.04); border: 1px solid var(--line); }
-    .stat strong { display: block; font-size: 1.6rem; }
-    section { padding-top: 34px; }
-    .section-head { display: flex; align-items: end; justify-content: space-between; gap: 16px; margin-bottom: 16px; }
-    h2 { font-size: 1.55rem; margin: 0; letter-spacing: -0.02em; }
-    .muted { color: var(--muted); }
-    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
-    .card { padding: 20px; }
-    .card h3 { margin: 0 0 8px; font-size: 1.08rem; }
-    .taglist { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 14px; }
-    .tag {
-      font-size: 0.92rem; color: var(--muted);
-      border: 1px solid var(--line); padding: 8px 12px; border-radius: 999px;
-      background: rgba(255,255,255,0.03);
-    }
-    .pubs { display: grid; gap: 14px; }
-    .pub {
-      padding: 18px 18px 16px; border: 1px solid var(--line);
-      border-radius: 18px; background: rgba(255,255,255,0.04);
-    }
-    .pub-title { font-weight: 700; color: var(--text); }
-    .pub-meta { color: var(--muted); margin-top: 6px; }
-    .footer {
-      margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--line);
-      color: var(--muted); font-size: 0.97rem;
-    }
-    @media (max-width: 900px) {
-      .hero, .grid-2 { grid-template-columns: 1fr; }
-    }
+    :root { --bg:#0b1020; --card:rgba(255,255,255,.06); --text:#eef2ff; --muted:#b8c0e0; --line:rgba(255,255,255,.12); --accent:#8fb4ff; --maxw:1040px; }
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;color:var(--text);background:radial-gradient(circle at top left, rgba(143,180,255,.18), transparent 34%),radial-gradient(circle at top right, rgba(179,156,255,.18), transparent 28%),linear-gradient(180deg,#0a0f1f 0%,#0c1227 100%);line-height:1.65}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:28px 20px 80px}.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:10px 0 28px}.nav .name{font-weight:700;letter-spacing:.02em}.nav .links{display:flex;gap:18px;flex-wrap:wrap}
+    .hero{padding:36px 0 28px;display:grid;grid-template-columns:1.2fr .8fr;gap:28px;align-items:start}
+    h1{font-size:clamp(2.4rem,5vw,4.5rem);line-height:1.02;margin:0 0 16px;letter-spacing:-.04em}.subtitle{font-size:clamp(1.05rem,1.9vw,1.3rem);color:var(--muted);max-width:760px}
+    .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}.btn{display:inline-block;padding:12px 16px;border-radius:999px;border:1px solid var(--line);background:rgba(255,255,255,.04);color:var(--text);font-weight:600}.btn.primary{background:linear-gradient(135deg, rgba(143,180,255,.22), rgba(179,156,255,.22));border-color:rgba(143,180,255,.35)}
+    .panel,.card{background:var(--card);border:1px solid var(--line);border-radius:22px;backdrop-filter:blur(10px)} .panel{padding:22px}.hero-stats{display:grid;gap:12px}.stat{padding:18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid var(--line)}.stat strong{display:block;font-size:1.35rem}
+    section{padding-top:34px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:16px;margin-bottom:16px}h2{font-size:1.55rem;margin:0;letter-spacing:-.02em}.muted{color:var(--muted)}.grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.card{padding:20px}.card h3{margin:0 0 8px;font-size:1.08rem}.taglist{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.tag{font-size:.92rem;color:var(--muted);border:1px solid var(--line);padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.03)}.pubs{display:grid;gap:14px}.pub{padding:18px 18px 16px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.04)}.pub-title{font-weight:700;color:var(--text)}.pub-meta{color:var(--muted);margin-top:6px}.footer{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);color:var(--muted);font-size:.97rem}@media (max-width:900px){.hero,.grid-2{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -114,10 +33,8 @@
 
     <header class="hero">
       <div>
-        <h1>3D genome organization, chromatin architecture, and computational genomics.</h1>
-        <p class="subtitle">
-          I study how the three-dimensional organization of chromatin shapes gene regulation, evolves across species, and breaks in disease. My work combines genomics, epigenetics, bioinformatics, and machine learning to understand genome architecture in normal development and under chromosomal rearrangements.
-        </p>
+        <h1>DNA language models, genomic AI, and sequence-to-function prediction.</h1>
+        <p class="subtitle">I develop DNA language models and computational genomics tools that connect sequence, regulation, and phenotype. My current focus is on foundation models for long DNA sequences, including GENA-LM and related DNALM systems, while building on earlier work in 3D genomics, chromatin architecture, and variant interpretation.</p>
         <div class="cta">
           <a class="btn primary" href="#publications">Selected publications</a>
           <a class="btn" href="#software">Software & tools</a>
@@ -125,148 +42,62 @@
         </div>
       </div>
       <div class="hero-stats panel">
-        <div class="stat">
-          <strong>50+</strong>
-          <span class="muted">publications across genomics, 3D genome biology, and computational biology</span>
-        </div>
-        <div class="stat">
-          <strong>33</strong>
-          <span class="muted">Q1/Q2 papers indexed in Scopus and Web of Science</span>
-        </div>
-        <div class="stat">
-          <strong>Focus</strong>
-          <span class="muted">3D genomics, chromosomal rearrangements, comparative genome architecture, and predictive models of chromatin contacts</span>
-        </div>
+        <div class="stat"><strong>GENA-LM</strong><span class="muted">open-source foundational DNA language models for long genomic sequences</span></div>
+        <div class="stat"><strong>Long context</strong><span class="muted">BPE tokenization with standard inputs up to ~36 kb and recurrent-memory extensions up to 1 Mb</span></div>
+        <div class="stat"><strong>Applications</strong><span class="muted">genome annotation, promoter and enhancer analysis, splice-site inference, chromatin features, and gene-expression prediction</span></div>
       </div>
     </header>
 
     <section id="research">
-      <div class="section-head">
-        <h2>Research areas</h2>
-      </div>
+      <div class="section-head"><h2>Research areas</h2></div>
       <div class="grid-2">
-        <div class="card">
-          <h3>3D genome organization</h3>
-          <p class="muted">Topologically associated domains, chromatin loops, compartments, and the mechanisms that shape nuclear architecture in different cell types and organisms.</p>
-        </div>
-        <div class="card">
-          <h3>Chromosomal rearrangements and disease</h3>
-          <p class="muted">Functional interpretation of structural variants and genome rearrangements through the lens of chromatin contacts and epigenetic regulation.</p>
-        </div>
-        <div class="card">
-          <h3>Comparative and evolutionary genomics</h3>
-          <p class="muted">How genome architecture changes across species, and what remains conserved over evolution.</p>
-        </div>
-        <div class="card">
-          <h3>Computational genomics and machine learning</h3>
-          <p class="muted">Predictive models for enhancer–promoter interactions, chromatin contacts, and context-aware interpretation of noncoding genomic variation.</p>
-        </div>
+        <div class="card"><h3>DNA language models</h3><p class="muted">Foundation models for genomic sequence modeling, long-context DNA understanding, transfer learning across tasks, and practical deployment for biology.</p></div>
+        <div class="card"><h3>GENA and genomic AI</h3><p class="muted">Development of GENA-LM and related systems for genome annotation, promoter activity prediction, enhancer analysis, splice-site inference, and noncoding variant interpretation.</p></div>
+        <div class="card"><h3>Gene regulation and sequence design</h3><p class="muted">Predicting regulatory activity from DNA sequence and using DNALMs for promoter design, cell-type specificity, and gene-expression modeling.</p></div>
+        <div class="card"><h3>Genome architecture and disease</h3><p class="muted">Earlier and ongoing work on 3D genomics, chromatin architecture, and chromosomal rearrangements provides the mechanistic background for sequence-based genomic AI.</p></div>
       </div>
       <div class="taglist">
-        <span class="tag">3D Genomics</span>
-        <span class="tag">Chromatin Architecture</span>
-        <span class="tag">Hi-C</span>
-        <span class="tag">Structural Variants</span>
-        <span class="tag">Comparative Genomics</span>
-        <span class="tag">Machine Learning</span>
-        <span class="tag">Epigenetics</span>
-        <span class="tag">Gene Regulation</span>
+        <span class="tag">DNA Language Models</span><span class="tag">GENA-LM</span><span class="tag">DNALM</span><span class="tag">Genomic AI</span><span class="tag">Sequence-to-Function</span><span class="tag">Gene Regulation</span><span class="tag">Genome Annotation</span><span class="tag">3D Genomics</span>
       </div>
     </section>
 
     <section id="publications">
-      <div class="section-head">
-        <h2>Selected publications</h2>
-        <div class="muted">A small selection representative of my research program.</div>
-      </div>
+      <div class="section-head"><h2>Selected publications</h2><div class="muted">A selection spanning DNA language models and computational genomics.</div></div>
       <div class="pubs">
-        <div class="pub">
-          <div class="pub-title">Quantitative Prediction of Enhancer–Promoter Interactions</div>
-          <div class="pub-meta">Belokopytova PS, Nuriddinov MA, Mozheiko EA, Fishman D, Fishman V. <em>Genome Research</em> (2020).</div>
-          <div><a href="https://doi.org/10.1101/gr.249367.119">DOI</a></div>
-        </div>
-        <div class="pub">
-          <div class="pub-title">3D Organization of Chicken Genome Demonstrates Evolutionary Conservation of Topologically Associated Domains and Highlights Unique Architecture of Erythrocytes’ Chromatin</div>
-          <div class="pub-meta">Fishman V, Battulin N, Nuriddinov M, et al. <em>Nucleic Acids Research</em> (2019).</div>
-          <div><a href="https://doi.org/10.1093/nar/gky1103">DOI</a></div>
-        </div>
-        <div class="pub">
-          <div class="pub-title">C-InterSecture — a Computational Tool for Interspecies Comparison of Genome Architecture</div>
-          <div class="pub-meta">Nuriddinov M, Fishman V. <em>Bioinformatics</em> (2019).</div>
-          <div><a href="https://doi.org/10.1093/bioinformatics/btz415">DOI</a></div>
-        </div>
-        <div class="pub">
-          <div class="pub-title">3DGenBench: A Web-Server to Benchmark Computational Models for 3D Genomics</div>
-          <div class="pub-meta">Belokopytova P, Viesná E, Chiliński M, et al. <em>Nucleic Acids Research</em> (2022).</div>
-          <div><a href="https://doi.org/10.1093/nar/gkac396">DOI</a></div>
-        </div>
-        <div class="pub">
-          <div class="pub-title">Predicting Genome Architecture: Challenges and Solutions</div>
-          <div class="pub-meta">Belokopytova P, Fishman V. <em>Frontiers in Genetics</em> (2021).</div>
-          <div><a href="https://doi.org/10.3389/fgene.2020.617202">DOI</a></div>
-        </div>
-        <div class="pub">
-          <div class="pub-title">Interpreting Chromosomal Rearrangements in the Context of 3-Dimensional Genome Organization: A Practical Guide for Medical Genetics</div>
-          <div class="pub-meta">Fishman VS, Salnikov PA, Battulin NR. <em>Biochemistry (Moscow)</em> (2018).</div>
-          <div><a href="https://doi.org/10.1134/S0006297918040107">DOI</a></div>
-        </div>
+        <div class="pub"><div class="pub-title">GENA-LM: A Family of Open-Source Foundational DNA Language Models for Long Sequences</div><div class="pub-meta">Fishman V, Kuratov Y, Petrov M, Shmelev A, Shepelin D, Chekanov N, Kardymon O, Burtsev M. <em>Nucleic Acids Research</em> (2025).</div><div><a href="https://doi.org/10.1093/nar/gkae1310">DOI</a></div></div>
+        <div class="pub"><div class="pub-title">Recurrent memory augmentation of GENA-LM improves performance on long DNA sequence tasks</div><div class="pub-meta">Kuratov Y et al. <em>ICLR 2024 Workshop on Machine Learning for Genomics Explorations</em>.</div><div><a href="https://openreview.net/forum?id=K671lCX90x">OpenReview</a></div></div>
+        <div class="pub"><div class="pub-title">Quantitative Prediction of Enhancer–Promoter Interactions</div><div class="pub-meta">Belokopytova PS, Nuriddinov MA, Mozheiko EA, Fishman D, Fishman V. <em>Genome Research</em> (2020).</div><div><a href="https://doi.org/10.1101/gr.249367.119">DOI</a></div></div>
+        <div class="pub"><div class="pub-title">3DGenBench: A Web-Server to Benchmark Computational Models for 3D Genomics</div><div class="pub-meta">Belokopytova P, Viesná E, Chiliński M, et al. <em>Nucleic Acids Research</em> (2022).</div><div><a href="https://doi.org/10.1093/nar/gkac396">DOI</a></div></div>
       </div>
     </section>
 
     <section id="software">
-      <div class="section-head">
-        <h2>Software and tools</h2>
-      </div>
+      <div class="section-head"><h2>Software & tools</h2></div>
       <div class="grid-2">
-        <div class="card">
-          <h3>3DPredictor</h3>
-          <p class="muted">A machine-learning framework for quantitative prediction of chromatin interactions, including enhancer–promoter contacts, from limited epigenetic input such as CTCF binding and RNA-seq.</p>
-        </div>
-        <div class="card">
-          <h3>C-InterSecture</h3>
-          <p class="muted">A computational pipeline for interspecies comparison of genome architecture and quantitative analysis of conserved or divergent chromatin contacts.</p>
-        </div>
-        <div class="card">
-          <h3>3DGenBench</h3>
-          <p class="muted">A benchmark web server for evaluating computational models in 3D genomics and comparing their performance in a transparent way.</p>
-        </div>
-        <div class="card">
-          <h3>Variant interpretation pipelines</h3>
-          <p class="muted">Methods and workflows for detecting chromosomal rearrangements and interpreting their regulatory consequences in human disease.</p>
-        </div>
+        <div class="card"><h3>GENA-LM</h3><p class="muted">A family of open-source DNA foundation models trained for long genomic sequences and reusable across many downstream tasks.</p></div>
+        <div class="card"><h3>DNALM systems</h3><p class="muted">Model development and application workflows for promoter analysis, gene expression prediction, genome annotation, and variant interpretation.</p></div>
+        <div class="card"><h3>GENA-Web / dnalm.airi.net</h3><p class="muted">A web interface for applying DNA language models to promoters, enhancers, splice sites, epigenetic features, and mutation-effect analysis.</p></div>
+        <div class="card"><h3>3DGenBench and earlier tools</h3><p class="muted">Benchmarking and computational methods spanning 3D genomics, chromatin contacts, and sequence-based modeling.</p></div>
       </div>
     </section>
 
     <section id="vision">
-      <div class="section-head">
-        <h2>Vision</h2>
-      </div>
+      <div class="section-head"><h2>Vision</h2></div>
       <div class="panel">
-        <p>
-          My long-term goal is to make genome architecture predictive. I am interested in building a bridge from descriptive 3D genomics to practical models that can explain developmental programs, evolutionary change, and the functional consequences of noncoding and structural variants.
-        </p>
-        <p>
-          This means combining mechanistic insight with computational tools that are robust, interpretable, and useful beyond a small set of benchmark cell types. I believe the next step for the field is not only better measurement of chromatin contacts, but principled prediction: models that can generalize to unseen cell states, new species, and clinically relevant genomic alterations.
-        </p>
-        <p>
-          In parallel, I care about turning advanced genome-architecture methods into tools that other researchers and clinicians can actually use — especially for disease variant interpretation, comparative genomics, and large-scale functional annotation of the noncoding genome.
-        </p>
+        <p>My long-term goal is to make genomic AI genuinely useful for biology and biotechnology: models that learn reusable DNA representations, transfer across tasks, and help connect sequence to regulation, expression, and phenotype.</p>
+        <p>I am particularly interested in building foundation models that can support genome annotation, noncoding variant interpretation, promoter design, and other sequence-to-function applications at scale. In this view, DNALMs are not just benchmark models, but practical research infrastructure for genomics.</p>
+        <p>My earlier work on chromatin architecture and 3D genomics continues to inform this agenda by grounding sequence-based modeling in biological mechanism.</p>
       </div>
     </section>
 
     <section id="contact">
-      <div class="section-head">
-        <h2>Google Scholar</h2>
-      </div>
-      <div class="card">
-        <h3>Profile</h3>
-        <p><a href="https://scholar.google.com/citations?user=b72SdFUAAAAJ" target="_blank" rel="noopener noreferrer">View Google Scholar profile</a></p>
-      </div>
+      <div class="section-head"><h2>Google Scholar</h2></div>
+      <div class="card"><h3>Profile</h3><p><a href="https://scholar.google.com/citations?user=b72SdFUAAAAJ" target="_blank" rel="noopener noreferrer">View Google Scholar profile</a></p></div>
     </section>
 
     <footer class="footer">
       <div>© Veniamin Fishman</div>
-      <div>This page is designed as a simple GitHub Pages-ready academic homepage.</div>
+      <div>GitHub Pages academic homepage.</div>
     </footer>
   </div>
 </body>
